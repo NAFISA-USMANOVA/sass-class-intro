@@ -1,0 +1,22 @@
+@import "variables";
+
+footer {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    justify-content: center;
+
+    .caja1 {
+        @include imageContainer;
+    }
+    .caja2{
+        @include imageContainer;
+    }
+    .caja3 {
+        @include imageContainer;
+    }   
+}
+
+
+
+

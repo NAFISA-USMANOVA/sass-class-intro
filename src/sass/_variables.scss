@@ -1,5 +1,51 @@
-$backgroundColor: burlywood;
-$titleColor: crimson;
-$TextColorOne: darkorchid;
-$TextColortwo: green;
+
+$backgroundColor: rgb(143, 217, 164);
+// $titleColor: crimson;
+$TextColorOne: rgb(87, 58, 22);
+$TextColortwo: rgb(23, 113, 23);
+$TextSizeNavbar: 1.8em;
+$TextFontSize: 20px;
+$FontFamily: fantasy;
+
+
+@mixin navBox{
+    float:right;
+    text-decoration: none;
+    color: rgb(175, 85, 16);
+    font-size: $TextSizeNavbar;
+    font-family:$FontFamily;
+    margin:15px;
+    font-weight:bolder;
+}
+@mixin bigTitle{
+    font-family: $FontFamily;
+    color:rgb(218, 69, 69);
+    font-size:60px;
+}
+@mixin sectionTitles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+@mixin box{
+    border-radius: 10px;
+    border: 5px solid red;
+    height: 124px;
+    width: 150px;
+}
+@mixin imageContainer{
+    @include box;
+    
+    img{
+        object-fit: cover;
+        width: 100%;
+        height:100%;   
+    }
+}
+
+
+
 

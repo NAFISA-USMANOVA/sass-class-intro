@@ -1,0 +1,27 @@
+.navbar {
+  display: flex-flow;
+  background-color: rgb(231, 216, 147);
+  height: 50px;
+  padding: 10px;
+  width: 100%;
+}
+.navbar .logo_flower {
+  width: 65px;
+  height: 65px;
+  display: inherit;
+}
+.navbar .nav {
+  float: right;
+  text-decoration: none;
+  color: rgb(175, 85, 16);
+  font-size: 1.8em;
+  font-family: fantasy;
+  margin: 15px;
+  font-weight: bolder;
+}
+
+h1 {
+  font-family: fantasy;
+  color: rgb(218, 69, 69);
+  font-size: 60px;
+}/*# sourceMappingURL=navbar.css.map */

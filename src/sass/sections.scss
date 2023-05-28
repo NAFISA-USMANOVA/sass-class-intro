@@ -1,12 +1,47 @@
-
 @import 'variables';
 
 main{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content:space-between;
     color: $TextColorOne;
+    float:inherit;
+    position:relative;
+    font-family: $FontFamily;
+
+    .title_h3{
+        @include sectionTitles;
+    }
+
+    #presentationFoto{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .imageAndText{
+        display:flex;
+        flex-direction:row;  
+        background-color:rgb(228, 187, 194); 
+          
+        #foto{
+            width: 500px;
+            border: 3px solid red;
+        } 
+    }
+
+    #section-one{
+        font-size: $TextFontSize;
+        padding:0px 30px 
+    }
+
     #section-two{
         color: $TextColortwo;
+    }
+    
+    .text_content_2{
+        display: flex;
+        margin: 20px;
+        padding:20px;
+        font-size: $TextFontSize;
     }
 }

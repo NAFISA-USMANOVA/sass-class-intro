@@ -1,0 +1,24 @@
+@import 'variables';
+
+.navbar{
+    display: flex-flow;
+    background-color:rgb(231, 216, 147);
+    height: 50px;
+    padding:10px;
+    width: 100%;
+
+    .logo_flower{
+        width: 65px;
+        height: 65px;
+        display: inherit;
+    }
+
+    .nav{
+        @include navBox;
+    }
+}
+
+h1{   
+    @include bigTitle;
+}
+

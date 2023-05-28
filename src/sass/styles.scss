@@ -1,11 +1,13 @@
 @use 'sections';
+@use 'footer';
+@use 'navbar';
 @import 'variables';
 
 body{
     background-color: $backgroundColor;
 
     header{
-        color: $titleColor;
+        color: rgb(46, 39, 12);
         width: 100%;
         h1{
             font-style: italic;
@@ -13,3 +15,4 @@ body{
         }
     }
 }
+
